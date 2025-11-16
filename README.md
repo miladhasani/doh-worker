@@ -7,8 +7,8 @@ How to use this script to setup a DoH server:
 5. once deployed click on your worker, and then click on edit code
 6. paste the JS code in this repo and deploy.
 7. now navigate to settings tab and create these 4 variables in "Variable and Secrets" section:
-   CACHE_TTL_DEFAULT => 30
-   CACHE_TTL_MAX => 60
-   CACHE_TTL_MIN => 10
-   UPSTREAMM_DOH => https://1.1.1.1/dns-query
+   CACHE_TTL_DEFAULT = 30
+   CACHE_TTL_MAX = 60
+   CACHE_TTL_MIN = 10
+   UPSTREAMM_DOH = https://1.1.1.1/dns-query
 8. now the DoH server worker is ready, you just need to copy its url and paste it where you can define DoH servers e.g. Routers... 
